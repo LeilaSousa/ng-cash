@@ -1,0 +1,29 @@
+
+  <form [formGroup]="form">
+    <section class="campo">
+
+      <label for="{{ labelFor }}">
+        {{ label }}
+      </label>
+
+      <input type="{{ inputType }}"id="{{ labelFor }}" formControlName="{{ labelFor }}">
+
+    </section>
+
+    <section class="validation">
+      <p *ngIf="form.get('user')?.errors?.['required'] && form.get('user')?.touched">O campo é obrigatório.</p>
+
+      <p *ngIf="form.get('password')?.errors?.['required'] && form.get('password')?.touched">O campo é obrigatório.</p>
+
+      <p *ngIf="form.get('passConfirm')?.errors?.['required'] && form.get('passConfirm')?.touched">O campo é obrigatório.</p>
+
+      <p *ngIf="form.get('cashInFor')?.errors?.['required'] && form.get('cashInFor')?.touched">O campo é obrigatório.</p>
+
+      <p *ngIf="form.get('valor')?.errors?.['required'] && form.get('valor')?.touched">O campo é obrigatório.</p>
+
+      <p *ngIf="form.get('password')?.errors && form.get('password')?.touched">A senha deve conter pelo menos 8 dígitos, pelo menos uma maiúscula, pelo menos uma minúscula e pelo menos um número.</p>
+
+    </section>
+
+  </form>
+

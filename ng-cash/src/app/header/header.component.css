@@ -1,0 +1,20 @@
+nav{
+  padding: 2rem;
+}.logo{
+  height: 50px;
+}nav{
+  display: flex;
+  justify-content: space-between;
+  padding: .2rem;
+}nav>img{
+  cursor: pointer;
+}nav>ul{
+  display: flex;
+  flex-direction: row;
+}nav>ul>li{
+  list-style-type: none;
+  padding: .5rem 2rem;
+  cursor: pointer;
+}.cad{
+  margin-top: .6rem;
+}
