@@ -33,7 +33,6 @@ import { TransferenciasComponent } from './transferencias/transferencias.compone
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
