@@ -98,7 +98,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options":{
-            "baseHref":"https://leilasousa.github.io/ng-cash/ng-cash/"
+            "baseHref":"https://leilasousa.github.io/ng-cash/"
           }
         }
       }
